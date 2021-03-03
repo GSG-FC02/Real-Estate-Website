@@ -6,13 +6,13 @@
 
 .header{
     padding: 32px;
-    background-color: #4089b6;
+    background-color: #075B7F;
     color:white;
-    border-bottom: 3px solid #e8491d;
+    border-bottom: 3px solid white;
 }
 
 #header{
-    color: #e8491d;
+    color: #C1EDFE;
 }
 
 .header_container{
@@ -43,10 +43,41 @@
 }
 
 .list_item_active a{
-    color: #e8491d;
+    color:#C1EDFE;
 
 }
 
 .header_nav_list a:hover{
     color: rgb(241, 245, 8);
+    font-size: 25px;
+
 }
+
+
+ /*Search Style */
+
+.search{
+    justify-content: center; 
+    width:70%;
+    height: 70%;
+    border: 3px solid #C1EDFE;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 5px;
+}
+
+
+
+
+/*Media Query style */
+
+@media screen and(max-width : 768px){
+
+    /* header style*/
+       
+    } 
+
+
+      
