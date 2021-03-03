@@ -50,3 +50,75 @@
 .header_nav_list a:hover{
     color: rgb(241, 245, 8);
 }
+/* >>>>>>>>>>>.....footer style ..............<<<<<<<<<< */
+footer{
+    display:flex;
+    width: 100%;
+    height: 16%;
+    background: #075B7F;
+    justify-content:space-between;
+    align-items:center;
+    position:absolute;
+    bottom: 0;
+}
+/*>>>>...........footer icons style............<<<<<<*/
+.footerIcons{
+    width:30%;
+    margin-left: 5%;
+}
+.footerIcons ul{
+    list-style: none;
+}
+.footerIcons ul li{
+    display: inline-block;
+    padding: 1% 2%;
+    margin-left: 3%;
+    width: 11%;
+    border-right: 1px solid white;
+}
+.footerIcons ul li a{
+    align-items: center;
+    color:white;
+    padding: 5%;
+    /* border:1px solid white;
+    border-radius: 50%; */
+} 
+.footerIcons ul li a:hover{
+      color: orangered;
+}
+
+/*  >>............. footer links style ............<<<  */
+.links{
+    width:35%;
+}
+ .links ul{
+    display: flex;
+    list-style: none;
+    
+    align-items: center;
+    justify-content: center;
+}
+.links ul li{
+    display: inline-block;
+    margin-right: 7%;
+
+}
+.links ul li a{
+    text-decoration:none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.links ul li a:hover{
+    color: orangered;
+}
+.copyRight{
+    width: 50%;
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    bottom: 4%;
+    left: 1%;
+    border-top: 1px solid white;
+    padding-top: .65%;
+
+}
