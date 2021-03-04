@@ -1,52 +1,156 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.header{
-    padding: 32px;
-    background-color: #4089b6;
-    color:white;
-    border-bottom: 3px solid #e8491d;
+.header {
+  padding: 32px;
+  background-color: #4089b6;
+  color: white;
+  border-bottom: 3px solid #e8491d;
 }
 
-#header{
-    color: #e8491d;
+#header {
+  color: #e8491d;
 }
 
-.header_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header_container_title{
-    margin-left: 20px;
+.header_container_title {
+  margin-left: 20px;
 }
 
-.header_nav{
-    width: 30%;
+.header_nav {
+  width: 30%;
 }
 
-.header_nav_list{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.header_nav_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.header_nav_list a{
-    text-decoration: none;
-    color: white;
-    font-size: 22px; 
+.header_nav_list a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
 }
 
-.list_item_active a{
-    color: #e8491d;
-
+.list_item_active a {
+  color: #e8491d;
 }
 
-.header_nav_list a:hover{
-    color: rgb(241, 245, 8);
+.header_nav_list a:hover {
+  color: rgb(211, 8, 41);
+}
+/* Services Section Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.buy-image {
+  margin: auto;
+  width: 50px;
+}
+.images_style {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.elementor-flip-box__layer__overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  text-align: center;
+  padding: 35px;
+}
+
+.services_section {
+  background-color: rgb(202 204 206 / 16%);
+  width: 100%;
+  height: 630px;
+}
+.services_section_container {
+  margin-left: 100px;
+  padding-top: 20px;
+}
+.services {
+  width: 350px;
+  height: 400px;
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 60px;
+  background-color: white;
+  padding: 70px 50px;
+  border: solid thick rgba(255, 255, 255, 0.548) 1px;
+  border-radius: 6px;
+  box-shadow: rgb(209 209 213) 0px 5px;
+  text-align: center;
+}
+.Buy_Button{
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Buy_Button:hover{
+  padding: 10px;
+  color: white;
+  background-color: #0C4499;
+  }
+.Sell_Button{
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Sell_Button:hover{
+  padding: 10px;
+  color: white;
+  background-color: #0C4499;
+}
+
+.Rent_Button{
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Rent_Button:hover{
+  padding: 10px;
+  color: white;
+  background-color: #0C4499;
+}
+
+.services h2 {
+  margin-top: 30px;
+}
+
+.services:hover {
+  content: '';
+  box-shadow: rgb(209 209 213) 0px 5px 15px;
+  opacity: 0;
+  opacity: 1;
+  transition: all 300ms ease 0s;
+  cursor: pointer;
+  position: relative;
+  width: 360px;
+  height: 420px;
 }
