@@ -41,7 +41,49 @@
   color: white;
   font-size: 22px;
 }
+/* footer */
+footer {
+  display: flex;
+  width: 100%;
+  height: 16%;
+  background: #075b7f;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+/*>>>>...........footer icons style............<<<<<<*/
+.footerIcons {
+  width: 30%;
+  margin-left: 5%;
+}
+.footerIcons ul {
+  list-style: none;
+}
+.footerIcons ul li {
+  display: inline-block;
+  padding: 1% 2%;
+  margin-left: 3%;
+  width: 11%;
+  border-right: 1px solid white;
+}
+.footerIcons ul li a {
+  align-items: center;
+  color: white;
+  padding: 5%;
+}
+.footerIcons ul li a:hover {
+  color: #f2af34;
+}
 
+/*  >>............. footer links style ............<<<  */
+.links {
+  width: 50%;
+}
+.links ul {
+  display: flex;
+  list-style: none;
+}
 .list_item_active a {
   color: #c1edfe;
 }
@@ -59,10 +101,6 @@
   height: 70%;
   border: 3px solid #c1edfe;
   border-radius: 25px;
-  /* padding: 5px;
-    margin-top: 5px;
-    margin-right: 5px;
-    font-size: 5px; */
   outline: none;
 }
 
@@ -76,4 +114,55 @@
 
 @media screen and(max-width : 768px) {
   /* header style*/
+}
+ /* .{ align-items: center;
+  justify-content: center;
+} */
+.links ul li {
+  display: inline-block;
+  margin-left: 7%;
+}
+.links ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.links ul li a:hover {
+  color: #f2af34;
+}
+/* >>>>...........copyRight style..........<<<< */
+.copyRight {
+  width: 50%;
+  position: absolute;
+  font-size: 14px;
+  color: white;
+  bottom: 4%;
+  left: 1%;
+  padding-top: 0.65%;
+}
+/* >>>>.........media query style.........<<<<< */
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footerIcons {
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+  }
+  .links {
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 6%;
+  }
+  .copyRight {
+    width: 100%;
+    left: 0%;
+  }
 }
