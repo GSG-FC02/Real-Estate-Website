@@ -114,10 +114,10 @@ footer{
     width: 50%;
     position: absolute;
     font-size: 14px;
-    /* color: white;
+    color: white;
     bottom: 4%;
     left: 1%;
-    border-top: 1px solid white; */
+    border-top: 1px solid white;
     padding-top: .65%;
 }
 /* >>>>.........media query style.........<<<<< */
