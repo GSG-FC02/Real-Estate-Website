@@ -82,12 +82,12 @@ footer{
     padding: 5%;
 } 
 .footerIcons ul li a:hover{
-      color: orangered;
+    color: #F2AF34;
 }
 
 /*  >>............. footer links style ............<<<  */
 .links{
-    width:35%;
+    width: 50%;
 }
  .links ul{
     display: flex;
@@ -98,7 +98,7 @@ footer{
 }
 .links ul li{
     display: inline-block;
-    margin-right: 7%;
+    margin-left: 7%;
 
 }
 .links ul li a{
@@ -107,16 +107,43 @@ footer{
     font-family: 'Montserrat', sans-serif;
 }
 .links ul li a:hover{
-    color: orangered;
+    color: #F2AF34;
 }
+/* >>>>...........copyRight style..........<<<< */
 .copyRight{
     width: 50%;
     position: absolute;
     font-size: 14px;
-    color: white;
+    /* color: white;
     bottom: 4%;
     left: 1%;
-    border-top: 1px solid white;
+    border-top: 1px solid white; */
     padding-top: .65%;
+}
+/* >>>>.........media query style.........<<<<< */
+@media screen and (max-width:768px){
+    footer{
+        width: 100%;
+         display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footerIcons {
+        width: 50%;
+        position: absolute;
+        top: 5%;
+        left: 30%;
 
+    }
+    .links{
+        width: 80%;
+        position: absolute;
+        top: 35%;
+        left: 6%;
+    }
+    .copyRight{
+        width: 100%;
+        left: 0%;
+    }
 }
