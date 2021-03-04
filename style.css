@@ -80,8 +80,6 @@ footer{
     align-items: center;
     color:white;
     padding: 5%;
-    /* border:1px solid white;
-    border-radius: 50%; */
 } 
 .footerIcons ul li a:hover{
       color: orangered;
