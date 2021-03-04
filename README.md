@@ -4,7 +4,7 @@
 - Saja Abu Safiah
 - Abdallah Rabah 
 - Omar Al Rabi
-- Ahd 
+- Ahd Suhail
 
 ## our website
 Our team is going to create a website that is devoted to real estate services.
@@ -20,3 +20,6 @@ We tried to keep the design simple and cute at the same time, so we came up with
 At this point, we divided the work, and each one of us created an " issue " for what he will do and assigned it to himself, And started working on it.
 of course, whenever we got into a problem we tried to figurer it out first, and then asked for help.
 #### A problem: actually working with Github at first was kind of hard but We got used to it, Mistakes made us educated :sunglasses: .
+
+### Day-3 
+At this point, most of our work was coding or working on github.
