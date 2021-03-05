@@ -1,27 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="RealEstate" content="ourWebsite">
-        <title>Real Estate Website</title>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-      </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="RealEstate" content="ourWebsite" />
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+  </head>
   <body>
-    
     <!-- header section  -->
     <header class="header">
       <div class="header_container">
-        <h1 class="header_container_title"><span id="header">Real </span>Estate </h1> 
+        <h1 class="header_container_title">
+          <span id="header">Real </span>Estate
+        </h1>
         <nav class="header_nav">
-        <ul class="header_nav_list">
-          <li class="list_item_active"><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
+          <ul class="header_nav_list">
+            <li class="list_item_active"><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+
+            <!-- The form -->
+            <form class="formSearch" action="#">
+              <input
+                class="search"
+                type="text"
+                placeholder="Search.."
+                name="search"
+              />
+              <button class="iSearch" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </ul>
+        </nav>
       </div>
     </header>
     <!-- ----------footer-----------< -->
