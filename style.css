@@ -152,6 +152,12 @@ footer {
   .footerIcons {
     width: 50%;
     position: absolute;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    bottom: 4%;
+    left: 1%;
+    padding-top: .65%;
     top: 5%;
     left: 30%;
   }
